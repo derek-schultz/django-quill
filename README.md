@@ -7,7 +7,7 @@ Easily use [Quill.js](http://quilljs.com/) in your django admin.
 
 This project is heavily inspired by [django-ckeditor](https://github.com/django-ckeditor/django-ckeditor).
 
-Requires django 1.7.
+Requires django 1.8.
 
 ![Admin Preview](/.screenshots/admin.png?raw=true)
 
