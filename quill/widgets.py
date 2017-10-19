@@ -1,9 +1,12 @@
 from django import forms
 from django.apps import apps
-from django.forms.util import flatatt
 from django.template.loader import render_to_string
 from django.templatetags.static import static
 from django.utils.safestring import mark_safe
+try:
+    from django.forms.util import flatatt
+except ImportError:
+    from django.forms.utils import flatatt
 
 
 class QuillEditorWidget(forms.Textarea):
